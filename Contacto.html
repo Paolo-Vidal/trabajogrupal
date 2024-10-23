@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panderia</title>
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="stylesheet" href="Estilos/all.min.css">
+    <link rel="icon" type="imagen/webp" href="Imagenes/Icono-de-panadería.webp">
+</head>
+<body>
+    <header> 
+        <div class="logo"> 
+            <img src="Imagenes/img02.jpg" alt="Logo de la página"> </div> 
+        <nav> 
+            <ul> 
+            <li><a href="index.html">Inicio</a></li> 
+            <li><a href="Servicios.html">Servicios</a></li> 
+            <li><a href="Postres.html">Postres</a></li> 
+            <li><a href="Contacto.html">Contacto</a></li>
+        </ul> 
+    </nav> 
+    
+    </header>
+    <main>
+    <section class="contacto">
+      <h2>Contáctanos</h2>
+      <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta, quieres realizar un pedido personalizado o simplemente quieres decir hola, no dudes en contactarnos.</p>
+      <ul>
+        <li><strong>Dirección:</strong> Av.La Molina calle 21</li>
+        <li><strong>Teléfono:</strong> 913456289</li>
+        <li><strong>Correo electrónico:</strong> Panaderia@gmail.com</li>
+        <li><strong>Horario de atención:</strong> 08:00am - 20:00pm</li>
+      </ul>
+  </section>
+
+  <section class="contacto">
+      <h2>Envíanos un mensaje</h2>
+      <form action="procesar_formulario.php" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+
+          <label for="correo">Correo electrónico:</label>
+          <input type="email" id="correo" name="correo" required>
+
+          <label for="asunto">Asunto:</label>
+          <input type="text" id="asunto" name="asunto">
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+          <button type="submit">Enviar</button>
+      </form>
+  </section>
+
+</main>
+    
+    
+    <footer> 
+    <div class="footer-content">
+     <h2>Conéctate con Nosotros</h2> 
+     <h3>Síguenos en nuestras redes sociales</h3> 
+    <div class="social-icons"> 
+    <a href="#"><i class="fab fa-facebook-f"></i></a> 
+    <a href="#"><i class="fab fa-twitter"></i></a> 
+    <a href="#"><i class="fab fa-instagram"></i></a> 
+    <a href="#"><i class="fab fa-linkedin-in"></i></a> 
+    </footer>
+</body>
+    
+</html>
